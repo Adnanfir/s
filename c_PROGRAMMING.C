@@ -1,5 +1,6 @@
 #include <stdio.h>
 int a, b, sum, subs, multiplication, division;
+char i;
 // Function to recive Numbers
 int Reciever()
 {
@@ -58,12 +59,20 @@ void choosing(char p)
 }
 int main()
 {
-    // Function call to recive numbers
-    Reciever();
-    char p;
-   printf("Enter the task you want to perform");
-   scanf("%s", &p);
-    choosing(p);
+    printf("If you want to continue press p for input");
+    scanf("%c", &i);
+    if (i == 'p')
+    {
+        for (int k = 0; k < 10; k++)
+        {
+            // Function call to recive numbers
+            Reciever();
+            char p;
+            printf("Enter the task you want to perform");
+            scanf("%s", &p);
+            choosing(p);
+        }
+    }
 
     return 0;
 }
