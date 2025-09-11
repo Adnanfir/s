@@ -1,0 +1,9 @@
+Name: Salik
+Age: 20
+ID: 486
+Phone: 345242345
+Email: salik.com
+Department: CSe
+Years of Experience: 4
+Qualifications: Btech
+Office Location: head
